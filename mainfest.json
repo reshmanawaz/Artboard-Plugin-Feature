@@ -1,0 +1,23 @@
+{
+    "id": "00000000",
+    "name": "Artboard Features",
+    "version": "0.0.1",
+    "description": " Create shapes on an Artboard",
+    "auther": "Reshma Nawaz",
+    "icons": [
+        { "width": 24, "height": 24, "path": "images/icon.png" }
+    ],
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+
+    "uiEntryPoints": [
+        {
+            "type": "menu",
+            "label": "Insert Shapes",
+            "commandId": "shapes",
+            "shortcut": {"mac": "Cmd+Shift+T", "win": "Ctrl+Shift+T"}
+        }
+    ]
+}
